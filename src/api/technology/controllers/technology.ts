@@ -3,10 +3,10 @@
  */
 
 import { factories } from '@strapi/strapi'
-const model = 'api::technology.technology'
+const api = 'api::technology.technology'
 
-export default factories.createCoreController(model, ({ strapi }) => ({
+export default factories.createCoreController(api, ({ strapi }) => ({
   async find(): Promise<any[]> {
-    return await strapi.service(model).getTech()
+    return await strapi.service(api).getTech()
   }
 }))

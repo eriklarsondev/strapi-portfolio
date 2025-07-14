@@ -3,8 +3,8 @@
  */
 
 import { factories } from '@strapi/strapi'
-const model = 'api::content-block.content-block'
+const api = 'api::content-block.content-block'
 
-export default factories.createCoreRouter(model, {
+export default factories.createCoreRouter(api, {
   only: ['findOne']
 })

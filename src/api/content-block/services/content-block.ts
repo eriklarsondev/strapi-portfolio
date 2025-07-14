@@ -3,11 +3,11 @@
  */
 
 import { factories } from '@strapi/strapi'
-const model = 'api::content-block.content-block'
+const api = 'api::content-block.content-block'
 
-export default factories.createCoreService(model, ({ strapi }) => ({
+export default factories.createCoreService(api, ({ strapi }) => ({
   async getContentBySlug(id: string): Promise<any> {
-    return await strapi.db.query(model).findOne({
+    return await strapi.db.query(api).findOne({
       where: { slug: id }
     })
   }

@@ -3,11 +3,11 @@
  */
 
 import { factories } from '@strapi/strapi'
-const model = 'api::technology.technology'
+const api = 'api::technology.technology'
 
-export default factories.createCoreService(model, ({ strapi }) => ({
+export default factories.createCoreService(api, ({ strapi }) => ({
   async getTech(): Promise<any[]> {
-    return await strapi.documents(model).findMany({
+    return await strapi.documents(api).findMany({
       sort: { name: 'asc' }
     })
   }

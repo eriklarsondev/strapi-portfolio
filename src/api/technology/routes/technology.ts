@@ -3,8 +3,8 @@
  */
 
 import { factories } from '@strapi/strapi'
-const model = 'api::technology.technology'
+const api = 'api::technology.technology'
 
-export default factories.createCoreRouter(model, {
+export default factories.createCoreRouter(api, {
   only: ['find']
 })
