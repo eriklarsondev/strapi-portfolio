@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "displayName": "Menu Item"
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "new_tab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

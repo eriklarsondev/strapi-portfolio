@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_cta",
+  "info": {
+    "displayName": "CTA"
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "component": "menu.menu-item"
+    }
+  }
+}
