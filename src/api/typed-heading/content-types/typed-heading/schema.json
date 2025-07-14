@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "technologies",
+  "collectionName": "typed_headings",
   "info": {
-    "singularName": "technology",
-    "pluralName": "technologies",
-    "displayName": "Tech"
+    "singularName": "typed-heading",
+    "pluralName": "typed-headings",
+    "displayName": "Typed Heading"
   },
   "options": {
     "draftAndPublish": false
@@ -15,14 +15,11 @@
       "unique": true,
       "required": true
     },
-    "icon": {
+    "slug": {
       "type": "string"
     },
-    "description": {
+    "items": {
       "type": "text"
-    },
-    "url": {
-      "type": "string"
     }
   }
 }
