@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "author": "Erik Larson",
-  "description": "",
+  "description": "Strapi project developed to serve as the backend content management system for a personal portfolio website",
   "scripts": {
     "build": "strapi build",
     "console": "strapi console",
@@ -32,8 +32,8 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
+    "node": "18.20.3",
+    "npm": "10.7.0"
   },
   "strapi": {
     "uuid": "b105db08-eaef-4c28-95c4-4ab8545e1d3b",
